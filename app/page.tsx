@@ -1,3 +1,4 @@
+import React from 'react';
 import EnhancementCalculator from "@/components/enhancement-calculator"
 import PatchNotes from "@/components/patch-notes"
 import CharacterInfo from "@/components/character-info"
