@@ -1,3 +1,4 @@
+// components/theme-provider.tsx 파일 생성
 "use client"
 
 import * as React from "react"
