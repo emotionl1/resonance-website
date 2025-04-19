@@ -3,20 +3,12 @@
 const nextConfig = {
     reactStrictMode: true,
     swcMinify: true,
-    // App Router만 사용하도록 설정
+    // App Router와 Pages Router를 함께 사용
     experimental: {
       appDir: true,
     },
-    // 루트 경로를 app 디렉토리로 설정
-    async redirects() {
-      return [
-        {
-          source: '/',
-          destination: '/app',
-          permanent: true,
-        },
-      ]
-    },
+    // 기본 출력 옵션 설정
+    output: 'standalone',
   }
   
   module.exports = nextConfig
